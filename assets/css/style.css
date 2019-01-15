@@ -1,0 +1,84 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: #E74C3C;
+  font-family: 'Staatliches', cursive;
+}
+
+.main-container {
+  padding: 4% auto;
+  max-width: 960px;
+  margin: 8% auto;
+  box-sizing: border-box;
+  min-height: 80%;
+}
+
+.wrapper {
+  top: 5%;
+}
+
+button {
+  display: block;
+  width: 300px;
+  height: 80px;
+  margin: 20px auto 0 auto;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 40px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -moz-text-decoration-color: #E74C3C;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+#submit, #start {
+  font-family: 'Staatliches', cursive;
+  margin-top: 10%;
+  border: 3px solid #E74C3C;
+  background: #ECF0F1;
+  color: #E74C3C;
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+#submit:hover, #start:hover{
+  font-size: 55px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
